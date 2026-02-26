@@ -1,0 +1,200 @@
+{
+  "main": {
+    "id": "17ae74024a27f17c",
+    "type": "split",
+    "children": [
+      {
+        "id": "48cc87189246a8ba",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "8e891788b958ceac",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "基础/2 SQL.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "2 SQL"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "1ec6ad9651ae2d13",
+    "type": "split",
+    "children": [
+      {
+        "id": "20468b9545899277",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "225e981a01bde007",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {
+                "sortOrder": "alphabetical",
+                "autoReveal": false
+              },
+              "icon": "lucide-folder-closed",
+              "title": "文件列表"
+            }
+          },
+          {
+            "id": "95dffb566bc129a5",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "",
+                "matchingCase": false,
+                "explainSearch": false,
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
+              },
+              "icon": "lucide-search",
+              "title": "搜索"
+            }
+          },
+          {
+            "id": "20ef55ae249a60b8",
+            "type": "leaf",
+            "state": {
+              "type": "bookmarks",
+              "state": {},
+              "icon": "lucide-bookmark",
+              "title": "书签"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 200
+  },
+  "right": {
+    "id": "5c05aa70183e4ed7",
+    "type": "split",
+    "children": [
+      {
+        "id": "7073b839c9e2e182",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "c294e9e7cc9f71ef",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "file": "基础/1 MySQL概述.md",
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": true
+              },
+              "icon": "links-coming-in",
+              "title": "1 MySQL概述 的反向链接列表"
+            }
+          },
+          {
+            "id": "769a053fafdcca86",
+            "type": "leaf",
+            "state": {
+              "type": "outgoing-link",
+              "state": {
+                "file": "基础/1 MySQL概述.md",
+                "linksCollapsed": false,
+                "unlinkedCollapsed": true
+              },
+              "icon": "links-going-out",
+              "title": "1 MySQL概述 的出链列表"
+            }
+          },
+          {
+            "id": "4bd70904ac9a7114",
+            "type": "leaf",
+            "state": {
+              "type": "tag",
+              "state": {
+                "sortOrder": "frequency",
+                "useHierarchy": true,
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-tags",
+              "title": "标签"
+            }
+          },
+          {
+            "id": "fddc8b1ef3116d4b",
+            "type": "leaf",
+            "state": {
+              "type": "all-properties",
+              "state": {
+                "sortOrder": "frequency",
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-archive",
+              "title": "添加笔记属性"
+            }
+          },
+          {
+            "id": "420f1fcb5871e14e",
+            "type": "leaf",
+            "state": {
+              "type": "outline",
+              "state": {
+                "file": "基础/1 MySQL概述.md",
+                "followCursor": false,
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-list",
+              "title": "1 MySQL概述 的大纲"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300,
+    "collapsed": true
+  },
+  "left-ribbon": {
+    "hiddenItems": {
+      "switcher:打开快速切换": false,
+      "graph:查看关系图谱": false,
+      "canvas:新建白板": false,
+      "daily-notes:打开/创建今天的日记": false,
+      "templates:插入模板": false,
+      "command-palette:打开命令面板": false,
+      "bases:新建数据库": false
+    }
+  },
+  "active": "8e891788b958ceac",
+  "lastOpenFiles": [
+    "learn path.md",
+    "基础/2 SQL.md",
+    "基础/1 MySQL概述.md",
+    "Pasted image 20260208153100.png",
+    "Pasted image 20260208112645.png",
+    "基础/6 事务.md",
+    "基础/5 多表查询.md",
+    "基础/4 约束.md",
+    "基础/3 函数.md",
+    "基础",
+    "欢迎.md"
+  ]
+}
