@@ -81,3 +81,32 @@
 | LONGTEXT / longtext     | 0-4294967295 | 极大文本数据          |
   例：char(10)表示定长为10的字符串，即使只含有一个字符，其他位置用空格表示，性能高
   例：varchar(10)表示变长的字符串，会自动计算使用空间，性能较差
+
+  3.日期类型
+
+| 类型        | 大小(bytes) | 格式                  | 描述           |
+| --------- | --------- | ------------------- | ------------ |
+| DATE      | 3         | YYYY-MM-DD          | 日期值          |
+| TIME      | 3         | HH:MM:SS            | 时间值或持续时间     |
+| YEAR      | 1         | YYYY                | 年份值          |
+| DATETIME  | 8         | YYYY-MM-DD HH:MM:SS | 混合日期和时间值     |
+| TIMESTAMP | 4         | YYYY-MM-DD HH:MM:SS | 混合日期和时间值，时间戳 |
+
+### 六、DDL-表操作-修改
+  1.添加字段
+    `ALTER TABLE 表名 ADD 字段名 类型(长度) [COMMENT 注释][约束];`
+  2.修改字段
+    修改数据类型
+    `ALTER TABLE 表名 MODIFY 字段名 新数据类型(长度);`
+    修改字段名和字段类型
+    `ALTER TABLE 表名 CHANGE 旧字段名 新字段名 类型(长度) [COMMENT 注释][约束];`
+  3.删除字段
+    `ALTER TABLE 表名 DROP 字段名;`
+  4.修改表名
+    `ALTER TABLE 表名 RENAME TO 新表名;`
+
+### 七、DDL-表操作-删除
+  1.删除表
+    `DROP TABLE[IF EXISTS] 表名;`
+  2.删除指定表，并重新创建该表
+    `TRUNCATE TABLE 表名;`
